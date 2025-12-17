@@ -5,13 +5,10 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "serve": "docusaurus serve",
-    "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+    "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "postinstall": "npm rebuild sharp --force"
+    "serve": "docusaurus serve"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
@@ -19,23 +16,10 @@
     "@docusaurus/preset-classic": "^3.9.2",
     "prism-react-renderer": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sharp": "^0.32.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.0.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "engines": {
     "node": ">=18.0"

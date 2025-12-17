@@ -47,17 +47,12 @@ export default {
           "type": "docSidebar",
           "sidebarId": "bookSidebar",
           "position": "left",
-          "label": "Read Book"
+          "label": "Book"
         },
         {
           "to": "/glossary",
           "label": "Glossary",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/your-org/physical-ai-book",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -299,7 +294,17 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "plugins": [],
+  "plugins": [
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        "quality": 70,
+        "max": 1030,
+        "min": 640,
+        "steps": 2
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
