@@ -7,14 +7,13 @@ const config = {
   tagline: 'Learn to build intelligent systems that interact with the physical world',
   favicon: 'img/favicon.ico',
 
-  // Production URL
-  url: 'https://YOUR_VERCEL_PROJECT_URL.vercel.app', // <-- Deploy karte waqt update karein
+  url: 'https://your-vercel-domain.vercel.app', // Vercel domain
   baseUrl: '/',
 
   organizationName: 'physical-ai-book',
   projectName: 'physical-ai-book',
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'ignore', // temporary fix for build
   onBrokenMarkdownLinks: 'warn',
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
@@ -25,7 +24,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Docs ko home page banata hai
+          routeBasePath: '/', // docs as homepage
         },
         blog: false,
         theme: { customCss: require.resolve('./src/css/custom.css') },
@@ -36,9 +35,9 @@ const config = {
   themeConfig: {
     navbar: {
       title: 'Physical AI',
-      logo: { alt: 'Physical AI Book Logo', src: 'img/logo.svg' },
+      logo: { alt: 'Physical AI Logo', src: 'img/logo.svg' },
       items: [
-        { type: 'docSidebar', sidebarId: 'bookSidebar', position: 'left', label: 'Book' },
+        { type: 'docSidebar', sidebarId: 'bookSidebar', position: 'left', label: 'Read Book' },
         { to: '/glossary', label: 'Glossary', position: 'left' },
         {
           href: 'https://github.com/your-org/physical-ai-book',
@@ -47,18 +46,10 @@ const config = {
         },
       ],
     },
-
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Book',
-          items: [{ label: 'Glossary', to: '/glossary' }],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book.`,
     },
-
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
@@ -67,10 +58,7 @@ const config = {
   },
 
   plugins: [
-    [
-      '@docusaurus/plugin-ideal-image',
-      { quality: 70, max: 1030, min: 640, steps: 2, disableInDev: false },
-    ],
+    // Removed plugin-ideal-image to avoid sharp build errors on Vercel
   ],
 };
 

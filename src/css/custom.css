@@ -36,7 +36,6 @@
 /* ============================================
    LESSON PROGRESS INDICATOR
    ============================================ */
-
 .lesson-progress {
   margin-bottom: 1.5rem;
   padding: 0.75rem 1rem;
@@ -45,7 +44,6 @@
   border-radius: 0 8px 8px 0;
   font-size: 0.95rem;
 }
-
 [data-theme='dark'] .lesson-progress {
   background: linear-gradient(135deg, rgba(96, 165, 250, 0.15), rgba(0, 0, 0, 0.2));
 }
@@ -53,19 +51,16 @@
 /* ============================================
    PROJECT OVERVIEW TABLES
    ============================================ */
-
 .project-overview table {
   margin: 1rem 0;
   border-radius: 8px;
   overflow: hidden;
 }
-
 .project-overview th {
   background-color: var(--ifm-color-primary-lightest);
   width: 30%;
   font-weight: 600;
 }
-
 [data-theme='dark'] .project-overview th {
   background-color: rgba(96, 165, 250, 0.2);
 }
@@ -73,14 +68,12 @@
 /* ============================================
    CODE EXAMPLE CONTAINER
    ============================================ */
-
 .code-example {
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 8px;
   margin: 1.5rem 0;
   overflow: hidden;
 }
-
 .code-example-header {
   background: var(--ifm-color-emphasis-100);
   padding: 0.5rem 1rem;
@@ -92,7 +85,6 @@
 /* ============================================
    CHECKPOINT QUIZ STYLING
    ============================================ */
-
 .checkpoint-quiz {
   background: var(--ifm-color-emphasis-100);
   border-radius: 8px;
@@ -100,17 +92,14 @@
   margin: 2rem 0;
   border: 1px solid var(--ifm-color-emphasis-200);
 }
-
 .checkpoint-quiz h3 {
   margin-top: 0;
   color: var(--ifm-color-primary-dark);
 }
-
 [data-theme='dark'] .checkpoint-quiz {
   background: rgba(255, 255, 255, 0.05);
   border-color: rgba(255, 255, 255, 0.1);
 }
-
 [data-theme='dark'] .checkpoint-quiz h3 {
   color: var(--ifm-color-primary-light);
 }
@@ -119,287 +108,6 @@
 .checkpoint-quiz details {
   margin-top: 1rem;
 }
-
 .checkpoint-quiz summary {
   cursor: pointer;
-  color: var(--ifm-color-primary);
-  font-weight: 600;
-  padding: 0.5rem 0;
-}
-
-.checkpoint-quiz summary:hover {
-  color: var(--ifm-color-primary-dark);
-}
-
-/* ============================================
-   EXERCISE DIFFICULTY BADGES
-   ============================================ */
-
-.exercise-badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-right: 0.5rem;
-  vertical-align: middle;
-}
-
-.exercise-badge--basic {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.exercise-badge--intermediate {
-  background: #fef3c7;
-  color: #92400e;
-}
-
-.exercise-badge--advanced {
-  background: #fee2e2;
-  color: #991b1b;
-}
-
-[data-theme='dark'] .exercise-badge--basic {
-  background: rgba(34, 197, 94, 0.2);
-  color: #86efac;
-}
-
-[data-theme='dark'] .exercise-badge--intermediate {
-  background: rgba(251, 191, 36, 0.2);
-  color: #fcd34d;
-}
-
-[data-theme='dark'] .exercise-badge--advanced {
-  background: rgba(239, 68, 68, 0.2);
-  color: #fca5a5;
-}
-
-/* ============================================
-   HARDWARE CALLOUT
-   ============================================ */
-
-.alert--hardware {
-  --ifm-alert-background-color: #fef3c7;
-  --ifm-alert-border-color: #f59e0b;
-  --ifm-alert-foreground-color: #92400e;
-}
-
-[data-theme='dark'] .alert--hardware {
-  --ifm-alert-background-color: rgba(251, 191, 36, 0.1);
-  --ifm-alert-foreground-color: #fcd34d;
-}
-
-/* ============================================
-   TABLE IMPROVEMENTS
-   ============================================ */
-
-table {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--ifm-color-emphasis-300);
-}
-
-th {
-  background-color: var(--ifm-color-emphasis-100);
-  font-weight: 600;
-  text-align: left;
-}
-
-[data-theme='dark'] th {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-/* ============================================
-   CODE BLOCK STYLING
-   ============================================ */
-
-pre {
-  border-radius: 8px;
-}
-
-/* Code block with title */
-.codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
-  background: var(--ifm-color-emphasis-200) !important;
-  border-bottom: 1px solid var(--ifm-color-emphasis-300);
-}
-
-/* Line numbers */
-.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
-  font-size: 0.9rem;
-}
-
-/* ============================================
-   ADMONITION IMPROVEMENTS
-   ============================================ */
-
-.admonition {
-  border-radius: 8px;
-  margin: 1.5rem 0;
-}
-
-.admonition-heading h5 {
-  font-size: 1rem;
-}
-
-/* ============================================
-   ASCII ART / DIAGRAMS
-   ============================================ */
-
-pre code {
-  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
-}
-
-/* Preserve ASCII art formatting */
-.ascii-diagram {
-  font-family: monospace;
-  white-space: pre;
-  line-height: 1.2;
-  overflow-x: auto;
-}
-
-/* ============================================
-   FOOTER STYLING
-   ============================================ */
-
-.footer__title {
-  color: var(--ifm-color-primary-lighter);
-}
-
-.footer__link-item:hover {
-  color: var(--ifm-color-primary-lightest);
-}
-
-/* ============================================
-   NAVIGATION IMPROVEMENTS
-   ============================================ */
-
-.navbar__title {
-  font-weight: 700;
-}
-
-/* Active sidebar link */
-.menu__link--active {
-  font-weight: 600;
-}
-
-/* ============================================
-   RESPONSIVE ADJUSTMENTS
-   ============================================ */
-
-@media (max-width: 768px) {
-  .lesson-progress {
-    font-size: 0.85rem;
-    padding: 0.5rem 0.75rem;
-  }
-
-  .exercise-badge {
-    font-size: 0.75rem;
-    padding: 0.2rem 0.5rem;
-  }
-
-  .checkpoint-quiz {
-    padding: 1rem;
-  }
-
-  table {
-    font-size: 0.9rem;
-  }
-
-  th, td {
-    padding: 0.5rem;
-  }
-}
-
-/* ============================================
-   PRINT STYLES
-   ============================================ */
-
-@media print {
-  .lesson-progress {
-    background: #f0f0f0 !important;
-    -webkit-print-color-adjust: exact;
-  }
-
-  .checkpoint-quiz {
-    background: #f5f5f5 !important;
-    -webkit-print-color-adjust: exact;
-  }
-
-  .exercise-badge {
-    border: 1px solid #ccc;
-  }
-}
-
-/* ============================================
-   LEARNING OBJECTIVES CHECKLIST
-   ============================================ */
-
-.markdown ul li input[type="checkbox"] {
-  margin-right: 0.5rem;
-  transform: scale(1.1);
-}
-
-/* ============================================
-   DETAILS/SUMMARY STYLING (Solutions)
-   ============================================ */
-
-details {
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
-  background: var(--ifm-color-emphasis-100);
-  border-radius: 8px;
-  border: 1px solid var(--ifm-color-emphasis-200);
-}
-
-details[open] {
-  padding-bottom: 1rem;
-}
-
-summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--ifm-color-primary);
-  padding: 0.5rem 0;
-  outline: none;
-}
-
-summary:hover {
-  color: var(--ifm-color-primary-dark);
-}
-
-summary::marker {
-  color: var(--ifm-color-primary);
-}
-
-[data-theme='dark'] details {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-/* ============================================
-   HORIZONTAL RULE STYLING
-   ============================================ */
-
-hr {
-  border: none;
-  border-top: 1px solid var(--ifm-color-emphasis-300);
-  margin: 2rem 0;
-}
-
-/* ============================================
-   IMAGE CAPTIONS
-   ============================================ */
-
-.markdown img + em {
-  display: block;
-  text-align: center;
-  color: var(--ifm-color-emphasis-600);
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
+  color: var(--ifm-color

@@ -7,7 +7,7 @@ export default {
   "title": "Physical AI: A Hands-On Guide",
   "tagline": "Learn to build intelligent systems that interact with the physical world",
   "favicon": "img/favicon.ico",
-  "url": "https://YOUR_VERCEL_PROJECT_URL.vercel.app",
+  "url": "https://your-vercel-domain.vercel.app",
   "baseUrl": "/",
   "organizationName": "physical-ai-book",
   "projectName": "physical-ai-book",
@@ -39,7 +39,7 @@ export default {
     "navbar": {
       "title": "Physical AI",
       "logo": {
-        "alt": "Physical AI Book Logo",
+        "alt": "Physical AI Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -47,7 +47,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "bookSidebar",
           "position": "left",
-          "label": "Book"
+          "label": "Read Book"
         },
         {
           "to": "/glossary",
@@ -64,18 +64,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Book",
-          "items": [
-            {
-              "label": "Glossary",
-              "to": "/glossary"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2025 Physical AI Book."
+      "copyright": "Copyright © 2025 Physical AI Book.",
+      "links": []
     },
     "prism": {
       "theme": {
@@ -309,18 +299,7 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "plugins": [
-    [
-      "@docusaurus/plugin-ideal-image",
-      {
-        "quality": 70,
-        "max": 1030,
-        "min": 640,
-        "steps": 2,
-        "disableInDev": false
-      }
-    ]
-  ],
+  "plugins": [],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
