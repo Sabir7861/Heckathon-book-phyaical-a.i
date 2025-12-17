@@ -5,7 +5,7 @@
   "source": "@site/docs/perception/lesson-02-computer-vision-basics.md",
   "sourceDirName": "perception",
   "slug": "/perception/lesson-02-computer-vision-basics",
-  "permalink": "/docs/perception/lesson-02-computer-vision-basics",
+  "permalink": "/perception/lesson-02-computer-vision-basics",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "bookSidebar",
   "previous": {
     "title": "Sensors and Sensing",
-    "permalink": "/docs/perception/lesson-01-sensors-and-sensing"
+    "permalink": "/perception/lesson-01-sensors-and-sensing"
   },
   "next": {
     "title": "Processing Sensor Data",
-    "permalink": "/docs/perception/lesson-03-processing-sensor-data"
+    "permalink": "/perception/lesson-03-processing-sensor-data"
   }
 }

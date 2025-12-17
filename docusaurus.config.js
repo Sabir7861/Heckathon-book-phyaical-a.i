@@ -7,13 +7,14 @@ const config = {
   tagline: 'Learn to build intelligent systems that interact with the physical world',
   favicon: 'img/favicon.ico',
 
-  url: 'http://localhost', // Jab deploy karein to sahi URL dalein
+  // Production URL
+  url: 'https://YOUR_VERCEL_PROJECT_URL.vercel.app', // <-- Deploy karte waqt update karein
   baseUrl: '/',
 
   organizationName: 'physical-ai-book',
   projectName: 'physical-ai-book',
 
-  onBrokenLinks: 'ignore', // Filhal ignore pe rakhein taake site build ho jaye
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
@@ -24,7 +25,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Iska matlab hai docs hi home page hai
+          routeBasePath: '/', // Docs ko home page banata hai
         },
         blog: false,
         theme: { customCss: require.resolve('./src/css/custom.css') },
@@ -35,16 +36,29 @@ const config = {
   themeConfig: {
     navbar: {
       title: 'Physical AI',
-      logo: { alt: 'Logo', src: 'img/logo.svg' },
+      logo: { alt: 'Physical AI Book Logo', src: 'img/logo.svg' },
       items: [
-        { type: 'docSidebar', sidebarId: 'bookSidebar', position: 'left', label: 'Read Book' },
+        { type: 'docSidebar', sidebarId: 'bookSidebar', position: 'left', label: 'Book' },
         { to: '/glossary', label: 'Glossary', position: 'left' },
+        {
+          href: 'https://github.com/your-org/physical-ai-book',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
+
     footer: {
       style: 'dark',
+      links: [
+        {
+          title: 'Book',
+          items: [{ label: 'Glossary', to: '/glossary' }],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
@@ -55,7 +69,7 @@ const config = {
   plugins: [
     [
       '@docusaurus/plugin-ideal-image',
-      { quality: 70, max: 1030, min: 640, steps: 2 },
+      { quality: 70, max: 1030, min: 640, steps: 2, disableInDev: false },
     ],
   ],
 };

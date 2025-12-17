@@ -3,218 +3,218 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '20d'),
+    path: '/',
+    component: ComponentCreator('/', '8de'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '816'),
+        path: '/',
+        component: ComponentCreator('/', '0af'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'e62'),
+            path: '/',
+            component: ComponentCreator('/', '7f5'),
             routes: [
               {
-                path: '/docs/',
-                component: ComponentCreator('/docs/', '883'),
+                path: '/actuation/lesson-01-motors-and-movement',
+                component: ComponentCreator('/actuation/lesson-01-motors-and-movement', 'e45'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/actuation/lesson-01-motors-and-movement',
-                component: ComponentCreator('/docs/actuation/lesson-01-motors-and-movement', '1e8'),
+                path: '/actuation/lesson-02-control-systems-basics',
+                component: ComponentCreator('/actuation/lesson-02-control-systems-basics', 'c7f'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/actuation/lesson-02-control-systems-basics',
-                component: ComponentCreator('/docs/actuation/lesson-02-control-systems-basics', 'e09'),
+                path: '/actuation/lesson-03-building-a-robotic-arm',
+                component: ComponentCreator('/actuation/lesson-03-building-a-robotic-arm', 'e7b'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/actuation/lesson-03-building-a-robotic-arm',
-                component: ComponentCreator('/docs/actuation/lesson-03-building-a-robotic-arm', '3fd'),
+                path: '/category/1-foundations-of-physical-ai',
+                component: ComponentCreator('/category/1-foundations-of-physical-ai', '88f'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/1-foundations-of-physical-ai',
-                component: ComponentCreator('/docs/category/1-foundations-of-physical-ai', 'd1d'),
+                path: '/category/2-perception',
+                component: ComponentCreator('/category/2-perception', '22d'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/2-perception',
-                component: ComponentCreator('/docs/category/2-perception', 'b70'),
+                path: '/category/3-reasoning',
+                component: ComponentCreator('/category/3-reasoning', '87e'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/3-reasoning',
-                component: ComponentCreator('/docs/category/3-reasoning', 'a9e'),
+                path: '/category/4-actuation',
+                component: ComponentCreator('/category/4-actuation', '9a2'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/4-actuation',
-                component: ComponentCreator('/docs/category/4-actuation', 'c62'),
+                path: '/category/5-learning',
+                component: ComponentCreator('/category/5-learning', 'f38'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/5-learning',
-                component: ComponentCreator('/docs/category/5-learning', '347'),
+                path: '/category/6-integration',
+                component: ComponentCreator('/category/6-integration', '0aa'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/6-integration',
-                component: ComponentCreator('/docs/category/6-integration', '2ff'),
+                path: '/category/7-ethics--future',
+                component: ComponentCreator('/category/7-ethics--future', 'e84'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/7-ethics--future',
-                component: ComponentCreator('/docs/category/7-ethics--future', 'f90'),
+                path: '/category/resources',
+                component: ComponentCreator('/category/resources', '69c'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/category/resources',
-                component: ComponentCreator('/docs/category/resources', '5db'),
+                path: '/ethics-and-future/lesson-01-safety-and-responsibility',
+                component: ComponentCreator('/ethics-and-future/lesson-01-safety-and-responsibility', 'eba'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/ethics-and-future/lesson-01-safety-and-responsibility',
-                component: ComponentCreator('/docs/ethics-and-future/lesson-01-safety-and-responsibility', '59a'),
+                path: '/ethics-and-future/lesson-02-ethical-considerations',
+                component: ComponentCreator('/ethics-and-future/lesson-02-ethical-considerations', 'b7f'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/ethics-and-future/lesson-02-ethical-considerations',
-                component: ComponentCreator('/docs/ethics-and-future/lesson-02-ethical-considerations', '29e'),
+                path: '/ethics-and-future/lesson-03-future-of-physical-ai',
+                component: ComponentCreator('/ethics-and-future/lesson-03-future-of-physical-ai', '909'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/ethics-and-future/lesson-03-future-of-physical-ai',
-                component: ComponentCreator('/docs/ethics-and-future/lesson-03-future-of-physical-ai', '18a'),
+                path: '/foundations/lesson-01-what-is-physical-ai',
+                component: ComponentCreator('/foundations/lesson-01-what-is-physical-ai', '2fe'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/foundations/lesson-01-what-is-physical-ai',
-                component: ComponentCreator('/docs/foundations/lesson-01-what-is-physical-ai', '920'),
+                path: '/foundations/lesson-02-components-of-physical-ai',
+                component: ComponentCreator('/foundations/lesson-02-components-of-physical-ai', 'fab'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/foundations/lesson-02-components-of-physical-ai',
-                component: ComponentCreator('/docs/foundations/lesson-02-components-of-physical-ai', '4e8'),
+                path: '/foundations/lesson-03-your-first-physical-ai-system',
+                component: ComponentCreator('/foundations/lesson-03-your-first-physical-ai-system', '0da'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/foundations/lesson-03-your-first-physical-ai-system',
-                component: ComponentCreator('/docs/foundations/lesson-03-your-first-physical-ai-system', '818'),
+                path: '/glossary',
+                component: ComponentCreator('/glossary', 'aff'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/glossary',
-                component: ComponentCreator('/docs/glossary', '332'),
+                path: '/integration/lesson-01-system-architecture',
+                component: ComponentCreator('/integration/lesson-01-system-architecture', 'ec2'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/integration/lesson-01-system-architecture',
-                component: ComponentCreator('/docs/integration/lesson-01-system-architecture', '947'),
+                path: '/integration/lesson-02-real-time-processing',
+                component: ComponentCreator('/integration/lesson-02-real-time-processing', 'a5e'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/integration/lesson-02-real-time-processing',
-                component: ComponentCreator('/docs/integration/lesson-02-real-time-processing', '5fd'),
+                path: '/integration/lesson-03-capstone-autonomous-robot',
+                component: ComponentCreator('/integration/lesson-03-capstone-autonomous-robot', '396'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/integration/lesson-03-capstone-autonomous-robot',
-                component: ComponentCreator('/docs/integration/lesson-03-capstone-autonomous-robot', 'a89'),
+                path: '/learning/lesson-01-machine-learning-for-robotics',
+                component: ComponentCreator('/learning/lesson-01-machine-learning-for-robotics', 'b9b'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/learning/lesson-01-machine-learning-for-robotics',
-                component: ComponentCreator('/docs/learning/lesson-01-machine-learning-for-robotics', '7c9'),
+                path: '/learning/lesson-02-reinforcement-learning-intro',
+                component: ComponentCreator('/learning/lesson-02-reinforcement-learning-intro', '0c0'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/learning/lesson-02-reinforcement-learning-intro',
-                component: ComponentCreator('/docs/learning/lesson-02-reinforcement-learning-intro', 'ad0'),
+                path: '/learning/lesson-03-training-your-physical-ai',
+                component: ComponentCreator('/learning/lesson-03-training-your-physical-ai', '26b'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/learning/lesson-03-training-your-physical-ai',
-                component: ComponentCreator('/docs/learning/lesson-03-training-your-physical-ai', 'c4e'),
+                path: '/perception/lesson-01-sensors-and-sensing',
+                component: ComponentCreator('/perception/lesson-01-sensors-and-sensing', '4d8'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/perception/lesson-01-sensors-and-sensing',
-                component: ComponentCreator('/docs/perception/lesson-01-sensors-and-sensing', 'f3b'),
+                path: '/perception/lesson-02-computer-vision-basics',
+                component: ComponentCreator('/perception/lesson-02-computer-vision-basics', '3bd'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/perception/lesson-02-computer-vision-basics',
-                component: ComponentCreator('/docs/perception/lesson-02-computer-vision-basics', '420'),
+                path: '/perception/lesson-03-processing-sensor-data',
+                component: ComponentCreator('/perception/lesson-03-processing-sensor-data', 'dbb'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/perception/lesson-03-processing-sensor-data',
-                component: ComponentCreator('/docs/perception/lesson-03-processing-sensor-data', 'd17'),
+                path: '/reasoning/lesson-01-decision-making-fundamentals',
+                component: ComponentCreator('/reasoning/lesson-01-decision-making-fundamentals', '6cb'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/reasoning/lesson-01-decision-making-fundamentals',
-                component: ComponentCreator('/docs/reasoning/lesson-01-decision-making-fundamentals', '60e'),
+                path: '/reasoning/lesson-02-state-machines-and-behavior',
+                component: ComponentCreator('/reasoning/lesson-02-state-machines-and-behavior', '105'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/reasoning/lesson-02-state-machines-and-behavior',
-                component: ComponentCreator('/docs/reasoning/lesson-02-state-machines-and-behavior', '46d'),
+                path: '/reasoning/lesson-03-planning-and-navigation',
+                component: ComponentCreator('/reasoning/lesson-03-planning-and-navigation', 'ebc'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/reasoning/lesson-03-planning-and-navigation',
-                component: ComponentCreator('/docs/reasoning/lesson-03-planning-and-navigation', 'e2f'),
+                path: '/resources/additional-resources',
+                component: ComponentCreator('/resources/additional-resources', 'af6'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/resources/additional-resources',
-                component: ComponentCreator('/docs/resources/additional-resources', '078'),
+                path: '/resources/hardware-guide',
+                component: ComponentCreator('/resources/hardware-guide', '564'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/resources/hardware-guide',
-                component: ComponentCreator('/docs/resources/hardware-guide', 'c20'),
+                path: '/resources/software-setup',
+                component: ComponentCreator('/resources/software-setup', '613'),
                 exact: true,
                 sidebar: "bookSidebar"
               },
               {
-                path: '/docs/resources/software-setup',
-                component: ComponentCreator('/docs/resources/software-setup', '608'),
+                path: '/',
+                component: ComponentCreator('/', '7e7'),
                 exact: true,
                 sidebar: "bookSidebar"
               }

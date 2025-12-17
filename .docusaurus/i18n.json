@@ -13,7 +13,7 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "http://localhost",
+      "url": "https://YOUR_VERCEL_PROJECT_URL.vercel.app",
       "baseUrl": "/"
     }
   }

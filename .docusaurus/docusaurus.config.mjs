@@ -7,28 +7,11 @@ export default {
   "title": "Physical AI: A Hands-On Guide",
   "tagline": "Learn to build intelligent systems that interact with the physical world",
   "favicon": "img/favicon.ico",
-  "url": "http://localhost",
+  "url": "https://YOUR_VERCEL_PROJECT_URL.vercel.app",
   "baseUrl": "/",
   "organizationName": "physical-ai-book",
   "projectName": "physical-ai-book",
-  "onBrokenLinks": "warn",
-  "markdown": {
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    },
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    }
-  },
+  "onBrokenLinks": "ignore",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -43,9 +26,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "C:\\Users\\DELL\\Desktop\\Book Writing using Spec-Kit Plus\\Heckathon\\book-physical-ai\\sidebars.js",
-          "routeBasePath": "docs",
-          "showLastUpdateTime": false,
-          "showLastUpdateAuthor": false
+          "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
@@ -55,7 +36,6 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/physical-ai-social-card.jpg",
     "navbar": {
       "title": "Physical AI",
       "logo": {
@@ -70,7 +50,7 @@ export default {
           "label": "Book"
         },
         {
-          "to": "/docs/glossary",
+          "to": "/glossary",
           "label": "Glossary",
           "position": "left"
         },
@@ -90,7 +70,7 @@ export default {
           "items": [
             {
               "label": "Glossary",
-              "to": "/docs/glossary"
+              "to": "/glossary"
             }
           ]
         }
@@ -306,10 +286,6 @@ export default {
         }
       ]
     },
-    "tableOfContents": {
-      "minHeadingLevel": 2,
-      "maxHeadingLevel": 4
-    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -327,7 +303,11 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": []
+    "metadata": [],
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    }
   },
   "plugins": [
     [
@@ -375,5 +355,22 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false
+  "noIndex": false,
+  "markdown": {
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    }
+  }
 };

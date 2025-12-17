@@ -5,7 +5,7 @@
   "source": "@site/docs/integration/lesson-02-real-time-processing.md",
   "sourceDirName": "integration",
   "slug": "/integration/lesson-02-real-time-processing",
-  "permalink": "/docs/integration/lesson-02-real-time-processing",
+  "permalink": "/integration/lesson-02-real-time-processing",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "bookSidebar",
   "previous": {
     "title": "System Architecture",
-    "permalink": "/docs/integration/lesson-01-system-architecture"
+    "permalink": "/integration/lesson-01-system-architecture"
   },
   "next": {
     "title": "Capstone: Autonomous Robot",
-    "permalink": "/docs/integration/lesson-03-capstone-autonomous-robot"
+    "permalink": "/integration/lesson-03-capstone-autonomous-robot"
   }
 }

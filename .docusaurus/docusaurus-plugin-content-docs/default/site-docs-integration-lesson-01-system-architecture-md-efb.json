@@ -5,7 +5,7 @@
   "source": "@site/docs/integration/lesson-01-system-architecture.md",
   "sourceDirName": "integration",
   "slug": "/integration/lesson-01-system-architecture",
-  "permalink": "/docs/integration/lesson-01-system-architecture",
+  "permalink": "/integration/lesson-01-system-architecture",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "bookSidebar",
   "previous": {
     "title": "6. Integration",
-    "permalink": "/docs/category/6-integration"
+    "permalink": "/category/6-integration"
   },
   "next": {
     "title": "Real-Time Processing",
-    "permalink": "/docs/integration/lesson-02-real-time-processing"
+    "permalink": "/integration/lesson-02-real-time-processing"
   }
 }
