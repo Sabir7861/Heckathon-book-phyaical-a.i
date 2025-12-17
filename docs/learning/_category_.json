@@ -1,0 +1,11 @@
+{
+  "label": "5. Learning",
+  "position": 5,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Learning: Improving Over Time",
+    "description": "Discover machine learning and reinforcement learning for robotics applications.",
+    "keywords": ["machine learning", "reinforcement learning", "training", "AI", "neural networks"]
+  }
+}

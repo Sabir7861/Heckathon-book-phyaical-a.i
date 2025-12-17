@@ -1,0 +1,28 @@
+{
+  "id": "actuation/lesson-03-building-a-robotic-arm",
+  "title": "Building a Robotic Arm",
+  "description": "Capstone project for actuation - build a robotic arm.",
+  "source": "@site/docs/actuation/lesson-03-building-a-robotic-arm.md",
+  "sourceDirName": "actuation",
+  "slug": "/actuation/lesson-03-building-a-robotic-arm",
+  "permalink": "/docs/actuation/lesson-03-building-a-robotic-arm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Building a Robotic Arm",
+    "description": "Capstone project for actuation - build a robotic arm."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Control Systems Basics",
+    "permalink": "/docs/actuation/lesson-02-control-systems-basics"
+  },
+  "next": {
+    "title": "5. Learning",
+    "permalink": "/docs/category/5-learning"
+  }
+}

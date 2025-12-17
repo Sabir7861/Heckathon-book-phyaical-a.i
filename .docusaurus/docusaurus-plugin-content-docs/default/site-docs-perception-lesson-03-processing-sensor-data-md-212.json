@@ -1,0 +1,28 @@
+{
+  "id": "perception/lesson-03-processing-sensor-data",
+  "title": "Processing Sensor Data",
+  "description": "Techniques for filtering and fusing sensor data.",
+  "source": "@site/docs/perception/lesson-03-processing-sensor-data.md",
+  "sourceDirName": "perception",
+  "slug": "/perception/lesson-03-processing-sensor-data",
+  "permalink": "/docs/perception/lesson-03-processing-sensor-data",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Processing Sensor Data",
+    "description": "Techniques for filtering and fusing sensor data."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Computer Vision Basics",
+    "permalink": "/docs/perception/lesson-02-computer-vision-basics"
+  },
+  "next": {
+    "title": "3. Reasoning",
+    "permalink": "/docs/category/3-reasoning"
+  }
+}

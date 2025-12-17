@@ -1,0 +1,28 @@
+{
+  "id": "learning/lesson-01-machine-learning-for-robotics",
+  "title": "Machine Learning for Robotics",
+  "description": "Overview of ML approaches for Physical AI.",
+  "source": "@site/docs/learning/lesson-01-machine-learning-for-robotics.md",
+  "sourceDirName": "learning",
+  "slug": "/learning/lesson-01-machine-learning-for-robotics",
+  "permalink": "/docs/learning/lesson-01-machine-learning-for-robotics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Machine Learning for Robotics",
+    "description": "Overview of ML approaches for Physical AI."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "5. Learning",
+    "permalink": "/docs/category/5-learning"
+  },
+  "next": {
+    "title": "Reinforcement Learning Introduction",
+    "permalink": "/docs/learning/lesson-02-reinforcement-learning-intro"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "reasoning/lesson-03-planning-and-navigation",
+  "title": "Planning and Navigation",
+  "description": "Path planning algorithms for autonomous navigation.",
+  "source": "@site/docs/reasoning/lesson-03-planning-and-navigation.md",
+  "sourceDirName": "reasoning",
+  "slug": "/reasoning/lesson-03-planning-and-navigation",
+  "permalink": "/docs/reasoning/lesson-03-planning-and-navigation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Planning and Navigation",
+    "description": "Path planning algorithms for autonomous navigation."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "State Machines and Behavior",
+    "permalink": "/docs/reasoning/lesson-02-state-machines-and-behavior"
+  },
+  "next": {
+    "title": "4. Actuation",
+    "permalink": "/docs/category/4-actuation"
+  }
+}

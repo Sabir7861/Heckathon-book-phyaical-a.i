@@ -1,0 +1,11 @@
+{
+  "label": "6. Integration",
+  "position": 6,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Integration: Putting It All Together",
+    "description": "Combine all components into complete, functional Physical AI systems.",
+    "keywords": ["system architecture", "ROS", "real-time", "integration", "capstone"]
+  }
+}

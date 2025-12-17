@@ -1,0 +1,38 @@
+{
+  "id": "foundations/lesson-02-components-of-physical-ai",
+  "title": "Components of Physical AI Systems",
+  "description": "Deep dive into the four pillars of Physical AI: perception, reasoning, actuation, and learning. Understand how these components work together.",
+  "source": "@site/docs/foundations/lesson-02-components-of-physical-ai.md",
+  "sourceDirName": "foundations",
+  "slug": "/foundations/lesson-02-components-of-physical-ai",
+  "permalink": "/docs/foundations/lesson-02-components-of-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Components of Physical AI Systems",
+    "description": "Deep dive into the four pillars of Physical AI: perception, reasoning, actuation, and learning. Understand how these components work together.",
+    "keywords": [
+      "perception",
+      "reasoning",
+      "actuation",
+      "learning",
+      "sensors",
+      "actuators",
+      "robotics components"
+    ],
+    "image": "/img/og/ch01-l02-components.png"
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "What is Physical AI?",
+    "permalink": "/docs/foundations/lesson-01-what-is-physical-ai"
+  },
+  "next": {
+    "title": "Your First Physical AI System",
+    "permalink": "/docs/foundations/lesson-03-your-first-physical-ai-system"
+  }
+}

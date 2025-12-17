@@ -1,0 +1,11 @@
+{
+  "label": "3. Reasoning",
+  "position": 3,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Reasoning: Making Decisions",
+    "description": "Explore decision-making, state machines, and navigation algorithms for Physical AI.",
+    "keywords": ["decision making", "state machines", "path planning", "navigation", "algorithms"]
+  }
+}

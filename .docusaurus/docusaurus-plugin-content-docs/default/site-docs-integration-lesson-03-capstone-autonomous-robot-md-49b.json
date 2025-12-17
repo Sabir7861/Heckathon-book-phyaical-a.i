@@ -1,0 +1,28 @@
+{
+  "id": "integration/lesson-03-capstone-autonomous-robot",
+  "title": "Capstone: Autonomous Robot",
+  "description": "Final integration project - build a complete autonomous robot.",
+  "source": "@site/docs/integration/lesson-03-capstone-autonomous-robot.md",
+  "sourceDirName": "integration",
+  "slug": "/integration/lesson-03-capstone-autonomous-robot",
+  "permalink": "/docs/integration/lesson-03-capstone-autonomous-robot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Capstone: Autonomous Robot",
+    "description": "Final integration project - build a complete autonomous robot."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Real-Time Processing",
+    "permalink": "/docs/integration/lesson-02-real-time-processing"
+  },
+  "next": {
+    "title": "7. Ethics & Future",
+    "permalink": "/docs/category/7-ethics--future"
+  }
+}

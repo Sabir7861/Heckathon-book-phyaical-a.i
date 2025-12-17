@@ -1,0 +1,36 @@
+{
+  "id": "foundations/lesson-01-what-is-physical-ai",
+  "title": "What is Physical AI?",
+  "description": "Discover what Physical AI is, why it matters, and how it differs from traditional software AI systems. Learn the fundamentals with hands-on examples.",
+  "source": "@site/docs/foundations/lesson-01-what-is-physical-ai.md",
+  "sourceDirName": "foundations",
+  "slug": "/foundations/lesson-01-what-is-physical-ai",
+  "permalink": "/docs/foundations/lesson-01-what-is-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "What is Physical AI?",
+    "description": "Discover what Physical AI is, why it matters, and how it differs from traditional software AI systems. Learn the fundamentals with hands-on examples.",
+    "keywords": [
+      "physical ai",
+      "robotics",
+      "artificial intelligence",
+      "embodied ai",
+      "cyber-physical systems"
+    ],
+    "image": "/img/og/ch01-l01-what-is-physical-ai.png"
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "1. Foundations of Physical AI",
+    "permalink": "/docs/category/1-foundations-of-physical-ai"
+  },
+  "next": {
+    "title": "Components of Physical AI Systems",
+    "permalink": "/docs/foundations/lesson-02-components-of-physical-ai"
+  }
+}

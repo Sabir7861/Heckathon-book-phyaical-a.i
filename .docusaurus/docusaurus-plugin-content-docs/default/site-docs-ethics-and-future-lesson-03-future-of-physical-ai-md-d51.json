@@ -1,0 +1,28 @@
+{
+  "id": "ethics-and-future/lesson-03-future-of-physical-ai",
+  "title": "The Future of Physical AI",
+  "description": "Emerging trends and career paths in Physical AI.",
+  "source": "@site/docs/ethics-and-future/lesson-03-future-of-physical-ai.md",
+  "sourceDirName": "ethics-and-future",
+  "slug": "/ethics-and-future/lesson-03-future-of-physical-ai",
+  "permalink": "/docs/ethics-and-future/lesson-03-future-of-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "The Future of Physical AI",
+    "description": "Emerging trends and career paths in Physical AI."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Ethical Considerations",
+    "permalink": "/docs/ethics-and-future/lesson-02-ethical-considerations"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/category/resources"
+  }
+}

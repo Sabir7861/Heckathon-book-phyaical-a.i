@@ -1,0 +1,28 @@
+{
+  "id": "ethics-and-future/lesson-02-ethical-considerations",
+  "title": "Ethical Considerations",
+  "description": "Ethical frameworks for Physical AI development.",
+  "source": "@site/docs/ethics-and-future/lesson-02-ethical-considerations.md",
+  "sourceDirName": "ethics-and-future",
+  "slug": "/ethics-and-future/lesson-02-ethical-considerations",
+  "permalink": "/docs/ethics-and-future/lesson-02-ethical-considerations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Ethical Considerations",
+    "description": "Ethical frameworks for Physical AI development."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Safety and Responsibility",
+    "permalink": "/docs/ethics-and-future/lesson-01-safety-and-responsibility"
+  },
+  "next": {
+    "title": "The Future of Physical AI",
+    "permalink": "/docs/ethics-and-future/lesson-03-future-of-physical-ai"
+  }
+}

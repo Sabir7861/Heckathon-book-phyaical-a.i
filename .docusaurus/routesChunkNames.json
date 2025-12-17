@@ -1,0 +1,151 @@
+{
+  "/docs-20d": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-816": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-e62": {
+    "__comp": "a94703ab"
+  },
+  "/docs/-883": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/actuation/lesson-01-motors-and-movement-1e8": {
+    "__comp": "17896441",
+    "content": "0c187a36"
+  },
+  "/docs/actuation/lesson-02-control-systems-basics-e09": {
+    "__comp": "17896441",
+    "content": "d819283d"
+  },
+  "/docs/actuation/lesson-03-building-a-robotic-arm-3fd": {
+    "__comp": "17896441",
+    "content": "bb0862a4"
+  },
+  "/docs/category/1-foundations-of-physical-ai-d1d": {
+    "__comp": "14eb3368",
+    "__props": "e86ae9b3"
+  },
+  "/docs/category/2-perception-b70": {
+    "__comp": "14eb3368",
+    "__props": "ff4d462b"
+  },
+  "/docs/category/3-reasoning-a9e": {
+    "__comp": "14eb3368",
+    "__props": "45fea273"
+  },
+  "/docs/category/4-actuation-c62": {
+    "__comp": "14eb3368",
+    "__props": "68c71c6e"
+  },
+  "/docs/category/5-learning-347": {
+    "__comp": "14eb3368",
+    "__props": "ce6f2ab3"
+  },
+  "/docs/category/6-integration-2ff": {
+    "__comp": "14eb3368",
+    "__props": "f884a20c"
+  },
+  "/docs/category/7-ethics--future-f90": {
+    "__comp": "14eb3368",
+    "__props": "cdf0a9c2"
+  },
+  "/docs/category/resources-5db": {
+    "__comp": "14eb3368",
+    "__props": "45df3516"
+  },
+  "/docs/ethics-and-future/lesson-01-safety-and-responsibility-59a": {
+    "__comp": "17896441",
+    "content": "1020544d"
+  },
+  "/docs/ethics-and-future/lesson-02-ethical-considerations-29e": {
+    "__comp": "17896441",
+    "content": "664d3fe0"
+  },
+  "/docs/ethics-and-future/lesson-03-future-of-physical-ai-18a": {
+    "__comp": "17896441",
+    "content": "d510f729"
+  },
+  "/docs/foundations/lesson-01-what-is-physical-ai-920": {
+    "__comp": "17896441",
+    "content": "86ccb511"
+  },
+  "/docs/foundations/lesson-02-components-of-physical-ai-4e8": {
+    "__comp": "17896441",
+    "content": "fa23d66f"
+  },
+  "/docs/foundations/lesson-03-your-first-physical-ai-system-818": {
+    "__comp": "17896441",
+    "content": "9c82f734"
+  },
+  "/docs/glossary-332": {
+    "__comp": "17896441",
+    "content": "e747ec83"
+  },
+  "/docs/integration/lesson-01-system-architecture-947": {
+    "__comp": "17896441",
+    "content": "efb475c8"
+  },
+  "/docs/integration/lesson-02-real-time-processing-5fd": {
+    "__comp": "17896441",
+    "content": "c470a1a3"
+  },
+  "/docs/integration/lesson-03-capstone-autonomous-robot-a89": {
+    "__comp": "17896441",
+    "content": "49be2a6e"
+  },
+  "/docs/learning/lesson-01-machine-learning-for-robotics-7c9": {
+    "__comp": "17896441",
+    "content": "13638ce3"
+  },
+  "/docs/learning/lesson-02-reinforcement-learning-intro-ad0": {
+    "__comp": "17896441",
+    "content": "84c5f0a2"
+  },
+  "/docs/learning/lesson-03-training-your-physical-ai-c4e": {
+    "__comp": "17896441",
+    "content": "ae5ff5cf"
+  },
+  "/docs/perception/lesson-01-sensors-and-sensing-f3b": {
+    "__comp": "17896441",
+    "content": "637efd01"
+  },
+  "/docs/perception/lesson-02-computer-vision-basics-420": {
+    "__comp": "17896441",
+    "content": "cf4a04dc"
+  },
+  "/docs/perception/lesson-03-processing-sensor-data-d17": {
+    "__comp": "17896441",
+    "content": "212709ad"
+  },
+  "/docs/reasoning/lesson-01-decision-making-fundamentals-60e": {
+    "__comp": "17896441",
+    "content": "1b14635f"
+  },
+  "/docs/reasoning/lesson-02-state-machines-and-behavior-46d": {
+    "__comp": "17896441",
+    "content": "adaab441"
+  },
+  "/docs/reasoning/lesson-03-planning-and-navigation-e2f": {
+    "__comp": "17896441",
+    "content": "135cc4e2"
+  },
+  "/docs/resources/additional-resources-078": {
+    "__comp": "17896441",
+    "content": "b79ea0d1"
+  },
+  "/docs/resources/hardware-guide-c20": {
+    "__comp": "17896441",
+    "content": "89eb0c92"
+  },
+  "/docs/resources/software-setup-608": {
+    "__comp": "17896441",
+    "content": "01a34ada"
+  }
+}

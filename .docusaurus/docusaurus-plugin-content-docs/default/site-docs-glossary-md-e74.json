@@ -1,0 +1,31 @@
+{
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "Comprehensive glossary of key terms used throughout the Physical AI book.",
+  "source": "@site/docs/glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/docs/glossary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99,
+    "title": "Glossary",
+    "description": "Comprehensive glossary of key terms used throughout the Physical AI book.",
+    "keywords": [
+      "glossary",
+      "definitions",
+      "terminology",
+      "physical ai terms",
+      "robotics vocabulary"
+    ]
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Additional Resources",
+    "permalink": "/docs/resources/additional-resources"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "perception/lesson-01-sensors-and-sensing",
+  "title": "Sensors and Sensing",
+  "description": "Introduction to sensor types used in Physical AI systems.",
+  "source": "@site/docs/perception/lesson-01-sensors-and-sensing.md",
+  "sourceDirName": "perception",
+  "slug": "/perception/lesson-01-sensors-and-sensing",
+  "permalink": "/docs/perception/lesson-01-sensors-and-sensing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Sensors and Sensing",
+    "description": "Introduction to sensor types used in Physical AI systems."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "2. Perception",
+    "permalink": "/docs/category/2-perception"
+  },
+  "next": {
+    "title": "Computer Vision Basics",
+    "permalink": "/docs/perception/lesson-02-computer-vision-basics"
+  }
+}

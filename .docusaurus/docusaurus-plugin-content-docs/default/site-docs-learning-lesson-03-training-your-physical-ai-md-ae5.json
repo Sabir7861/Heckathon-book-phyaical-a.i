@@ -1,0 +1,28 @@
+{
+  "id": "learning/lesson-03-training-your-physical-ai",
+  "title": "Training Your Physical AI",
+  "description": "Hands-on project training a robot with RL.",
+  "source": "@site/docs/learning/lesson-03-training-your-physical-ai.md",
+  "sourceDirName": "learning",
+  "slug": "/learning/lesson-03-training-your-physical-ai",
+  "permalink": "/docs/learning/lesson-03-training-your-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Training Your Physical AI",
+    "description": "Hands-on project training a robot with RL."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Reinforcement Learning Introduction",
+    "permalink": "/docs/learning/lesson-02-reinforcement-learning-intro"
+  },
+  "next": {
+    "title": "6. Integration",
+    "permalink": "/docs/category/6-integration"
+  }
+}

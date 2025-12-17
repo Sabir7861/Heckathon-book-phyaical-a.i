@@ -1,0 +1,198 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "actuation/lesson-01-motors-and-movement",
+              "path": "/docs/actuation/lesson-01-motors-and-movement",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "actuation/lesson-02-control-systems-basics",
+              "path": "/docs/actuation/lesson-02-control-systems-basics",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "actuation/lesson-03-building-a-robotic-arm",
+              "path": "/docs/actuation/lesson-03-building-a-robotic-arm",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "ethics-and-future/lesson-01-safety-and-responsibility",
+              "path": "/docs/ethics-and-future/lesson-01-safety-and-responsibility",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "ethics-and-future/lesson-02-ethical-considerations",
+              "path": "/docs/ethics-and-future/lesson-02-ethical-considerations",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "ethics-and-future/lesson-03-future-of-physical-ai",
+              "path": "/docs/ethics-and-future/lesson-03-future-of-physical-ai",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "foundations/lesson-01-what-is-physical-ai",
+              "path": "/docs/foundations/lesson-01-what-is-physical-ai",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "foundations/lesson-02-components-of-physical-ai",
+              "path": "/docs/foundations/lesson-02-components-of-physical-ai",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "foundations/lesson-03-your-first-physical-ai-system",
+              "path": "/docs/foundations/lesson-03-your-first-physical-ai-system",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "glossary",
+              "path": "/docs/glossary",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "integration/lesson-01-system-architecture",
+              "path": "/docs/integration/lesson-01-system-architecture",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "integration/lesson-02-real-time-processing",
+              "path": "/docs/integration/lesson-02-real-time-processing",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "integration/lesson-03-capstone-autonomous-robot",
+              "path": "/docs/integration/lesson-03-capstone-autonomous-robot",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "learning/lesson-01-machine-learning-for-robotics",
+              "path": "/docs/learning/lesson-01-machine-learning-for-robotics",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "learning/lesson-02-reinforcement-learning-intro",
+              "path": "/docs/learning/lesson-02-reinforcement-learning-intro",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "learning/lesson-03-training-your-physical-ai",
+              "path": "/docs/learning/lesson-03-training-your-physical-ai",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "perception/lesson-01-sensors-and-sensing",
+              "path": "/docs/perception/lesson-01-sensors-and-sensing",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "perception/lesson-02-computer-vision-basics",
+              "path": "/docs/perception/lesson-02-computer-vision-basics",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "perception/lesson-03-processing-sensor-data",
+              "path": "/docs/perception/lesson-03-processing-sensor-data",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "reasoning/lesson-01-decision-making-fundamentals",
+              "path": "/docs/reasoning/lesson-01-decision-making-fundamentals",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "reasoning/lesson-02-state-machines-and-behavior",
+              "path": "/docs/reasoning/lesson-02-state-machines-and-behavior",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "reasoning/lesson-03-planning-and-navigation",
+              "path": "/docs/reasoning/lesson-03-planning-and-navigation",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "resources/additional-resources",
+              "path": "/docs/resources/additional-resources",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "resources/hardware-guide",
+              "path": "/docs/resources/hardware-guide",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "resources/software-setup",
+              "path": "/docs/resources/software-setup",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/1-foundations-of-physical-ai",
+              "path": "/docs/category/1-foundations-of-physical-ai",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/2-perception",
+              "path": "/docs/category/2-perception",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/3-reasoning",
+              "path": "/docs/category/3-reasoning",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/4-actuation",
+              "path": "/docs/category/4-actuation",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/5-learning",
+              "path": "/docs/category/5-learning",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/6-integration",
+              "path": "/docs/category/6-integration",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/7-ethics--future",
+              "path": "/docs/category/7-ethics--future",
+              "sidebar": "bookSidebar"
+            },
+            {
+              "id": "/category/resources",
+              "path": "/docs/category/resources",
+              "sidebar": "bookSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "bookSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

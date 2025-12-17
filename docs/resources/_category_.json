@@ -1,0 +1,11 @@
+{
+  "label": "Resources",
+  "position": 8,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Resources",
+    "description": "Hardware guides, software setup instructions, and additional learning resources.",
+    "keywords": ["resources", "hardware", "software", "setup", "guides"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "resources/additional-resources",
+  "title": "Additional Resources",
+  "description": "Further learning resources for Physical AI.",
+  "source": "@site/docs/resources/additional-resources.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/additional-resources",
+  "permalink": "/docs/resources/additional-resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Additional Resources",
+    "description": "Further learning resources for Physical AI."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Software Setup",
+    "permalink": "/docs/resources/software-setup"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/glossary"
+  }
+}

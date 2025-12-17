@@ -1,0 +1,11 @@
+{
+  "label": "4. Actuation",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Actuation: Taking Action",
+    "description": "Learn about motors, control systems, and building robotic manipulators.",
+    "keywords": ["motors", "actuators", "control systems", "PID", "robotics", "servo"]
+  }
+}

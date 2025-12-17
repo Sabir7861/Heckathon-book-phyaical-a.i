@@ -1,0 +1,28 @@
+{
+  "id": "reasoning/lesson-02-state-machines-and-behavior",
+  "title": "State Machines and Behavior",
+  "description": "Implementing finite state machines for robot behavior.",
+  "source": "@site/docs/reasoning/lesson-02-state-machines-and-behavior.md",
+  "sourceDirName": "reasoning",
+  "slug": "/reasoning/lesson-02-state-machines-and-behavior",
+  "permalink": "/docs/reasoning/lesson-02-state-machines-and-behavior",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "State Machines and Behavior",
+    "description": "Implementing finite state machines for robot behavior."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Decision-Making Fundamentals",
+    "permalink": "/docs/reasoning/lesson-01-decision-making-fundamentals"
+  },
+  "next": {
+    "title": "Planning and Navigation",
+    "permalink": "/docs/reasoning/lesson-03-planning-and-navigation"
+  }
+}

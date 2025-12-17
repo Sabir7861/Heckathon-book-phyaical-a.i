@@ -1,0 +1,32 @@
+{
+  "id": "intro",
+  "title": "Welcome to Physical AI",
+  "description": "A hands-on guide to building intelligent systems that interact with the physical world through robotics, sensors, and actuators.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "title": "Welcome to Physical AI",
+    "description": "A hands-on guide to building intelligent systems that interact with the physical world through robotics, sensors, and actuators.",
+    "keywords": [
+      "physical ai",
+      "robotics",
+      "artificial intelligence",
+      "hands-on learning",
+      "embodied ai"
+    ],
+    "slug": "/"
+  },
+  "sidebar": "bookSidebar",
+  "next": {
+    "title": "1. Foundations of Physical AI",
+    "permalink": "/docs/category/1-foundations-of-physical-ai"
+  }
+}

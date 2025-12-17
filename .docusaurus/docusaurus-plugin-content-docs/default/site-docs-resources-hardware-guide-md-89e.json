@@ -1,0 +1,28 @@
+{
+  "id": "resources/hardware-guide",
+  "title": "Hardware Guide",
+  "description": "Guide to hardware components for Physical AI projects.",
+  "source": "@site/docs/resources/hardware-guide.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/hardware-guide",
+  "permalink": "/docs/resources/hardware-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Hardware Guide",
+    "description": "Guide to hardware components for Physical AI projects."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/category/resources"
+  },
+  "next": {
+    "title": "Software Setup",
+    "permalink": "/docs/resources/software-setup"
+  }
+}

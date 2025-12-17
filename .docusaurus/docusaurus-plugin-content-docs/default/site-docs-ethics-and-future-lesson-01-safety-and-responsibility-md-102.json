@@ -1,0 +1,28 @@
+{
+  "id": "ethics-and-future/lesson-01-safety-and-responsibility",
+  "title": "Safety and Responsibility",
+  "description": "Safety-critical design for Physical AI systems.",
+  "source": "@site/docs/ethics-and-future/lesson-01-safety-and-responsibility.md",
+  "sourceDirName": "ethics-and-future",
+  "slug": "/ethics-and-future/lesson-01-safety-and-responsibility",
+  "permalink": "/docs/ethics-and-future/lesson-01-safety-and-responsibility",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Safety and Responsibility",
+    "description": "Safety-critical design for Physical AI systems."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "7. Ethics & Future",
+    "permalink": "/docs/category/7-ethics--future"
+  },
+  "next": {
+    "title": "Ethical Considerations",
+    "permalink": "/docs/ethics-and-future/lesson-02-ethical-considerations"
+  }
+}

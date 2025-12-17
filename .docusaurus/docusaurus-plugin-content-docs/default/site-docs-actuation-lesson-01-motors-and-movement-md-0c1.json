@@ -1,0 +1,28 @@
+{
+  "id": "actuation/lesson-01-motors-and-movement",
+  "title": "Motors and Movement",
+  "description": "Understanding actuators and motor control.",
+  "source": "@site/docs/actuation/lesson-01-motors-and-movement.md",
+  "sourceDirName": "actuation",
+  "slug": "/actuation/lesson-01-motors-and-movement",
+  "permalink": "/docs/actuation/lesson-01-motors-and-movement",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Motors and Movement",
+    "description": "Understanding actuators and motor control."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "4. Actuation",
+    "permalink": "/docs/category/4-actuation"
+  },
+  "next": {
+    "title": "Control Systems Basics",
+    "permalink": "/docs/actuation/lesson-02-control-systems-basics"
+  }
+}

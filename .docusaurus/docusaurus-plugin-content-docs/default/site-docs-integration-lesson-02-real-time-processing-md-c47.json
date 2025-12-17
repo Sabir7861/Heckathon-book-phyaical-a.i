@@ -1,0 +1,28 @@
+{
+  "id": "integration/lesson-02-real-time-processing",
+  "title": "Real-Time Processing",
+  "description": "Handling timing constraints in Physical AI.",
+  "source": "@site/docs/integration/lesson-02-real-time-processing.md",
+  "sourceDirName": "integration",
+  "slug": "/integration/lesson-02-real-time-processing",
+  "permalink": "/docs/integration/lesson-02-real-time-processing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Real-Time Processing",
+    "description": "Handling timing constraints in Physical AI."
+  },
+  "sidebar": "bookSidebar",
+  "previous": {
+    "title": "System Architecture",
+    "permalink": "/docs/integration/lesson-01-system-architecture"
+  },
+  "next": {
+    "title": "Capstone: Autonomous Robot",
+    "permalink": "/docs/integration/lesson-03-capstone-autonomous-robot"
+  }
+}
