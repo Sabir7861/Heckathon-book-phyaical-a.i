@@ -6,15 +6,11 @@ const sidebars = {
       type: 'category',
       label: '1. Foundations of Physical AI',
       collapsed: false,
-      link: {
-        type: 'generated-index',
-        title: 'Foundations of Physical AI',
-        description: 'Learn the fundamental concepts of Physical AI and build your first system.',
-      },
+      link: { type: 'generated-index', title: 'Foundations of Physical AI' },
       items: [
-        '01-foundations/lesson-01-what-is-physical-ai',
-        '01-foundations/lesson-02-components-of-physical-ai',
-        '01-foundations/lesson-03-your-first-physical-ai-system',
+        'foundations/lesson-01-what-is-physical-ai',
+        'foundations/lesson-02-components-of-physical-ai',
+        'foundations/lesson-03-your-first-physical-ai-system',
       ],
     },
     {
@@ -22,9 +18,9 @@ const sidebars = {
       label: '2. Perception',
       link: { type: 'generated-index', title: 'Perception' },
       items: [
-        '02-perception/lesson-01-sensors-and-sensing',
-        '02-perception/lesson-02-computer-vision-basics',
-        '02-perception/lesson-03-processing-sensor-data',
+        'perception/lesson-01-sensors-and-sensing',
+        'perception/lesson-02-computer-vision-basics',
+        'perception/lesson-03-processing-sensor-data',
       ],
     },
     {
@@ -32,9 +28,9 @@ const sidebars = {
       label: '3. Reasoning',
       link: { type: 'generated-index', title: 'Reasoning' },
       items: [
-        '03-reasoning/lesson-01-decision-making-fundamentals',
-        '03-reasoning/lesson-02-state-machines-and-behavior',
-        '03-reasoning/lesson-03-planning-and-navigation',
+        'reasoning/lesson-01-decision-making-fundamentals',
+        'reasoning/lesson-02-state-machines-and-behavior',
+        'reasoning/lesson-03-planning-and-navigation',
       ],
     },
     {
@@ -42,9 +38,9 @@ const sidebars = {
       label: '4. Actuation',
       link: { type: 'generated-index', title: 'Actuation' },
       items: [
-        '04-actuation/lesson-01-motors-and-movement',
-        '04-actuation/lesson-02-control-systems-basics',
-        '04-actuation/lesson-03-building-a-robotic-arm',
+        'actuation/lesson-01-motors-and-movement',
+        'actuation/lesson-02-control-systems-basics',
+        'actuation/lesson-03-building-a-robotic-arm',
       ],
     },
     {
@@ -52,9 +48,9 @@ const sidebars = {
       label: '5. Learning',
       link: { type: 'generated-index', title: 'Learning' },
       items: [
-        '05-learning/lesson-01-machine-learning-for-robotics',
-        '05-learning/lesson-02-reinforcement-learning-intro',
-        '05-learning/lesson-03-training-your-physical-ai',
+        'learning/lesson-01-machine-learning-for-robotics',
+        'learning/lesson-02-reinforcement-learning-intro',
+        'learning/lesson-03-training-your-physical-ai',
       ],
     },
     {
@@ -62,9 +58,9 @@ const sidebars = {
       label: '6. Integration',
       link: { type: 'generated-index', title: 'Integration' },
       items: [
-        '06-integration/lesson-01-system-architecture',
-        '06-integration/lesson-02-real-time-processing',
-        '06-integration/lesson-03-capstone-autonomous-robot',
+        'integration/lesson-01-system-architecture',
+        'integration/lesson-02-real-time-processing',
+        'integration/lesson-03-capstone-autonomous-robot',
       ],
     },
     {
@@ -72,9 +68,9 @@ const sidebars = {
       label: '7. Ethics & Future',
       link: { type: 'generated-index', title: 'Ethics and Future' },
       items: [
-        '07-ethics-and-future/lesson-01-safety-and-responsibility',
-        '07-ethics-and-future/lesson-02-ethical-considerations',
-        '07-ethics-and-future/lesson-03-future-of-physical-ai',
+        'ethics-and-future/lesson-01-safety-and-responsibility',
+        'ethics-and-future/lesson-02-ethical-considerations',
+        'ethics-and-future/lesson-03-future-of-physical-ai',
       ],
     },
     {
