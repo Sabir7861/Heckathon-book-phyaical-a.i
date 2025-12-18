@@ -47,7 +47,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "bookSidebar",
           "position": "left",
-          "label": "Book"
+          "label": "book"
         },
         {
           "to": "/glossary",
